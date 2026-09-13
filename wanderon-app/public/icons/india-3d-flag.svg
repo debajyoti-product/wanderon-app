@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+  <defs>
+    <!-- 3D Sphere / Gloss Lighting -->
+    <radialGradient id="sphereGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+    </radialGradient>
+    
+    <!-- Stripe Gradients for depth -->
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF9933"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    
+    <linearGradient id="whiteGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2F2F2"/>
+    </linearGradient>
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#198717"/>
+      <stop offset="100%" stop-color="#0D590B"/>
+    </linearGradient>
+
+    <!-- Clip to circle for pill icon -->
+    <clipPath id="circleClip">
+      <circle cx="18" cy="18" r="16"/>
+    </clipPath>
+    
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Shadow Outer -->
+  <g filter="url(#shadow)">
+    <!-- Base Flag Clapped inside Circle -->
+    <g clip-path="url(#circleClip)">
+      <!-- Saffron -->
+      <rect x="0" y="2" width="36" height="11" fill="url(#saffronGrad)"/>
+      <!-- White -->
+      <rect x="0" y="13" width="36" height="10" fill="url(#whiteGrad)"/>
+      <!-- Green -->
+      <rect x="0" y="23" width="36" height="11" fill="url(#greenGrad)"/>
+
+      <!-- Ashoka Chakra -->
+      <g transform="translate(18, 18)">
+        <circle cx="0" cy="0" r="4.2" fill="none" stroke="#000080" stroke-width="0.8"/>
+        <circle cx="0" cy="0" r="1" fill="#000080"/>
+        <!-- Spokes (12 lines through center = 24 spokes) -->
+        <g stroke="#000080" stroke-width="0.45" stroke-linecap="round">
+          <line x1="0" y1="-4" x2="0" y2="4"/>
+          <line x1="-4" y1="0" x2="4" y2="0"/>
+          <line x1="-2.83" y1="-2.83" x2="2.83" y2="2.83"/>
+          <line x1="-2.83" y1="2.83" x2="2.83" y2="-2.83"/>
+          <line x1="-3.7" y1="-1.5" x2="3.7" y2="1.5"/>
+          <line x1="-3.7" y1="1.5" x2="3.7" y2="-1.5"/>
+          <line x1="-1.5" y1="-3.7" x2="1.5" y2="3.7"/>
+          <line x1="-1.5" y1="3.7" x2="1.5" y2="-3.7"/>
+          <line x1="-3.9" y1="-0.8" x2="3.9" y2="0.8"/>
+          <line x1="-3.9" y1="0.8" x2="3.9" y2="-0.8"/>
+          <line x1="-0.8" y1="-3.9" x2="0.8" y2="3.9"/>
+          <line x1="-0.8" y1="3.9" x2="0.8" y2="-3.9"/>
+        </g>
+      </g>
+
+      <!-- 3D Shading & Specular Glow -->
+      <circle cx="18" cy="18" r="16" fill="url(#sphereGrad)"/>
+    </g>
+    
+    <!-- Outer Rim -->
+    <circle cx="18" cy="18" r="16" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="0.8"/>
+  </g>
+</svg>
