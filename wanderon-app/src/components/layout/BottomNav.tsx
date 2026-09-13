@@ -21,7 +21,7 @@ const BottomNav = () => {
     },
     { 
       path: '/bookings', 
-      label: 'Trips', 
+      label: 'My Trips', 
       iconSolid: 'fa-solid fa-suitcase-rolling', 
       iconOutline: 'fa-solid fa-suitcase-rolling text-gray-400' 
     },

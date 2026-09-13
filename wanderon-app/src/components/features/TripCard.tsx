@@ -26,7 +26,7 @@ const TripCard: React.FC<TripCardProps> = ({ trip, className = '', layout = 'ver
     : `relative w-full overflow-hidden shrink-0 ${isCompact ? 'aspect-[7/5]' : 'aspect-[1/1]'}`;
 
   return (
-    <Link to={`/trip/${trip.slug}`} className={`group active:scale-[0.98] transition-transform duration-200 ${!isHorizontal ? 'h-full flex flex-col' : 'block'} ${className}`}>
+    <Link to={`/trip/ladakh-umling-la`} className={`group active:scale-[0.98] transition-transform duration-200 ${!isHorizontal ? 'h-full flex flex-col' : 'block'} ${className}`}>
       <Card padding="none" hover className={wrapperClass}>
         <div className={imageContainerClass}>
           <img

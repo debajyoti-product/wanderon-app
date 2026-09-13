@@ -46,8 +46,8 @@ const Home = () => {
       <div className="relative flex flex-col pt-2 pb-6 px-5 bg-white">
         
         {/* Top Bar: Logo & Favorites */}
-        <div className="flex justify-between items-center mt-2 mb-8">
-          <img src="/logo.png" alt="WanderOn" className="h-11 w-auto object-contain" />
+        <div className="flex justify-between items-center mt-2 mb-[26px]">
+          <img src="/logo.png" alt="WanderOn" className="h-[50px] w-auto object-contain" />
           <button 
             onClick={() => navigate('/saved')}
             className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-gray-700 shadow-sm border border-gray-200 active:scale-95 transition-transform"
@@ -66,7 +66,7 @@ const Home = () => {
           >
             <span 
               className="text-brand-slate/75"
-              style={{ WebkitTextStroke: '0.16px currentColor' }}
+              style={{ WebkitTextStroke: '0.4px currentColor' }}
             >
               Plan your next{' '}
             </span>
