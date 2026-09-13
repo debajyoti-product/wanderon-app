@@ -123,7 +123,7 @@ const Home = () => {
                   
                   {/* Value Prop 1 */}
                   <div className="flex flex-col items-center text-center">
-                    <img src="/images/zero_middlemen.jpg" alt="Zero Middlemen" className="w-[42px] h-[42px] object-cover mb-2" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+                    <img src="/images/zero_middlemen.jpg" alt="Zero Middlemen" className="w-[42px] h-[42px] object-cover mb-2" />
                     <h3 className="font-display font-medium text-[11px] text-gray-900 leading-tight">
                       Zero<br />Middlemen
                     </h3>
@@ -131,7 +131,7 @@ const Home = () => {
 
                   {/* Value Prop 2 */}
                   <div className="flex flex-col items-center text-center">
-                    <img src="/images/on_ground_support.jpg" alt="On Ground Support" className="w-[42px] h-[42px] object-cover mb-2" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+                    <img src="/images/on_ground_support.jpg" alt="On Ground Support" className="w-[42px] h-[42px] object-cover mb-2" />
                     <h3 className="font-display font-medium text-[11px] text-gray-900 leading-tight">
                       On Ground<br />Support
                     </h3>
@@ -139,7 +139,7 @@ const Home = () => {
 
                   {/* Value Prop 3 */}
                   <div className="flex flex-col items-center text-center">
-                    <img src="/images/vibe_match.jpg" alt="Filtered Matches" className="w-[42px] h-[42px] object-cover mb-2" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+                    <img src="/images/vibe_match.jpg" alt="Filtered Matches" className="w-[42px] h-[42px] object-cover mb-2" />
                     <h3 className="font-display font-medium text-[11px] text-gray-900 leading-tight">
                       Filtered<br />Matches
                     </h3>
@@ -147,7 +147,7 @@ const Home = () => {
 
                   {/* Value Prop 4 */}
                   <div className="flex flex-col items-center text-center">
-                    <img src="/images/exceptional_comfort.jpg" alt="Exceptional Comfort" className="w-[42px] h-[42px] object-cover mb-2" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+                    <img src="/images/exceptional_comfort.jpg" alt="Exceptional Comfort" className="w-[42px] h-[42px] object-cover mb-2" />
                     <h3 className="font-display font-medium text-[11px] text-gray-900 leading-tight">
                       Exceptional<br />Comfort
                     </h3>

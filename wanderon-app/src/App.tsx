@@ -16,8 +16,6 @@ function App() {
   
   return (
     <div className="mobile-wrapper @container w-full min-h-screen max-w-[400px] mx-auto bg-white relative shadow-2xl sm:border sm:border-gray-300 overflow-x-clip">
-      {" "}
-      <div className="fixed top-2 left-1/2 -translate-x-1/2 w-28 h-6 bg-black rounded-full z-[100]"></div>{" "}
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route element={<AppLayout />}>

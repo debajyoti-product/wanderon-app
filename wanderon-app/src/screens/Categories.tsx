@@ -20,14 +20,14 @@ const Categories = () => {
               onClick={() => navigate('/search?category=group')} 
               className="bg-white rounded-[1.25rem] p-4 flex flex-col items-center text-center border border-gray-100 shadow-sm active:scale-95 transition-transform"
             >
-              <img src="/images/group_trips.jpg" alt="Group Trips" className="w-[69px] h-[69px] object-cover mb-3" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+              <img src="/images/group_trips.jpg" alt="Group Trips" className="w-[69px] h-[69px] object-cover mb-3" />
               <h4 className="font-display font-semibold text-[15px] text-gray-800 leading-tight">Group<br/>Trips</h4>
             </button>
             <button 
               onClick={() => navigate('/search?category=corporate')} 
               className="bg-white rounded-[1.25rem] p-4 flex flex-col items-center text-center border border-gray-100 shadow-sm active:scale-95 transition-transform"
             >
-              <img src="/images/corporate_tours.jpg" alt="Corporate Tours" className="w-[69px] h-[69px] object-cover mb-3" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+              <img src="/images/corporate_tours.jpg" alt="Corporate Tours" className="w-[69px] h-[69px] object-cover mb-3" />
               <h4 className="font-display font-semibold text-[15px] text-gray-800 leading-tight">Corporate<br/>Tours</h4>
             </button>
           </div>
@@ -41,27 +41,27 @@ const Categories = () => {
           <div className="flex flex-col gap-3">
             <button 
               onClick={() => navigate('/search?category=family')} 
-              className="w-full flex items-center px-4 py-3 rounded-2xl active:scale-95 transition-transform bg-gradient-to-r from-yellow-50 to-yellow-100/60"
+              className="w-full flex items-center px-4 py-3 rounded-2xl active:scale-95 transition-transform bg-white border border-gray-100 shadow-sm"
             >
-              <img src="/images/family_packages_nodog.jpg" alt="Family" className="w-[55px] h-[55px] object-cover mr-4 shrink-0 rounded-full" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+              <img src="/images/family_packages_nodog.jpg" alt="Family" className="w-[55px] h-[55px] object-cover mr-4 shrink-0 rounded-full" />
               <h4 className="font-display font-semibold text-[15px] text-gray-800 tracking-wide">Family</h4>
               <i className="fa-solid fa-chevron-right ml-auto text-gray-400/70 text-sm"></i>
             </button>
             
             <button 
               onClick={() => navigate('/search?category=couples')} 
-              className="w-full flex items-center px-4 py-3 rounded-2xl active:scale-95 transition-transform bg-gradient-to-r from-rose-50 to-pink-100/60"
+              className="w-full flex items-center px-4 py-3 rounded-2xl active:scale-95 transition-transform bg-white border border-gray-100 shadow-sm"
             >
-              <img src="/images/couples_packages_pixar.jpg" alt="Couples" className="w-[55px] h-[55px] object-cover mr-4 shrink-0 rounded-full" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+              <img src="/images/couples_packages_pixar.jpg" alt="Couples" className="w-[55px] h-[55px] object-cover mr-4 shrink-0 rounded-full" />
               <h4 className="font-display font-semibold text-[15px] text-gray-800 tracking-wide">Couples</h4>
               <i className="fa-solid fa-chevron-right ml-auto text-gray-400/70 text-sm"></i>
             </button>
             
             <button 
               onClick={() => navigate('/search?category=custom')} 
-              className="w-full flex items-center px-4 py-3 rounded-2xl active:scale-95 transition-transform bg-gradient-to-r from-blue-50 to-cyan-100/60"
+              className="w-full flex items-center px-4 py-3 rounded-2xl active:scale-95 transition-transform bg-white border border-gray-100 shadow-sm"
             >
-              <img src="/images/custom_packages_pixar.jpg" alt="Custom" className="w-[55px] h-[55px] object-cover mr-4 shrink-0 rounded-full" style={{ mixBlendMode: 'multiply', filter: 'brightness(1.05) contrast(1.2)' }} />
+              <img src="/images/custom_packages_pixar.jpg" alt="Custom" className="w-[55px] h-[55px] object-cover mr-4 shrink-0 rounded-full" />
               <h4 className="font-display font-semibold text-[15px] text-gray-800 tracking-wide">Custom</h4>
               <i className="fa-solid fa-chevron-right ml-auto text-gray-400/70 text-sm"></i>
             </button>
